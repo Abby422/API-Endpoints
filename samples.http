@@ -1,0 +1,15 @@
+GET http://localhost:5000/users
+content-type: application/json
+
+###
+GET http://localhost:5000/users/mjopp0@merriam-webster.com 
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+Content-Length: 70
+
+{
+"email": "lvearnals5@sina.com.cn",
+"Password": "3sNXRgyZ0"
+}
