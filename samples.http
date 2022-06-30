@@ -13,3 +13,16 @@ Content-Length: 70
 "email": "lvearnals5@sina.com.cn",
 "Password": "3sNXRgyZ0"
 }
+
+###
+POST http://localhost:5000/create
+Content-Type: application/json
+
+{
+    "Id": 2,
+    "first_name": "Monty",
+    "last_name": "Jopp",
+    "email": "mjopp0@merriam-webster.com",
+    "gender": "Male",
+    "Password": "uehSLnl"
+}
