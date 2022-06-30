@@ -1,26 +1,10 @@
 require('dotenv').config()
 
 module.exports= {
-
-    // "config": {
-    //     "server": "localhost",
-    //     "authentication": {
-    //         "type": "default",
-    //         "options": {
-    //             "userName": "process.env.USERNAME",
-    //             "password": "process.env.PASSWORD"
-    //         }
-    //     },
-    //     "options": {
-    //         "port": 1433,
-    //         "database": "process.env.DATABASE"
-    //     }
-    // }
-
-
-    user: process.env.USERNAME,
-    password: process.env.PASSWORD,
-    database: process.env.DATABASE,
+  
+    user: process.env.DB_USERNAME,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
     server: 'localhost',
 
     port: 1433,
